@@ -20,7 +20,7 @@ public class CircularArrayRotation {
     }
 
     private static void solve(int[] a, int n, int k, int m) {
-        int index = (m - k)%n;
+        int index = (m - k) % n;
         index = index >= 0
                 ? index
                 : index + n;
