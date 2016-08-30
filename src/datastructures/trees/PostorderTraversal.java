@@ -1,11 +1,6 @@
 package datastructures.trees;
 
 public class PostorderTraversal {
-    class Node {
-        int data;
-        Node left;
-        Node right;
-    }
 
     void postOrder(Node root) {
         if (root.left != null) {

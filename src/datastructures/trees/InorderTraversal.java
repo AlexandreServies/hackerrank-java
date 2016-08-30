@@ -1,11 +1,6 @@
 package datastructures.trees;
 
 public class InorderTraversal {
-    class Node {
-        int data;
-        Node left;
-        Node right;
-    }
 
     void inOrder(Node root) {
         if (root.left != null) {

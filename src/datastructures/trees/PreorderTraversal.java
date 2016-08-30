@@ -1,11 +1,6 @@
 package datastructures.trees;
 
 public class PreorderTraversal {
-    class Node {
-        int data;
-        Node left;
-        Node right;
-    }
 
     void preOrder(Node root) {
         System.out.print(root.data + " ");
