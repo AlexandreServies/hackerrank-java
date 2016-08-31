@@ -22,8 +22,8 @@ public class SuperReducedString {
         }
         Object[] chars = stack.toArray();
         StringBuilder sb = new StringBuilder();
-        for (Object aChar : chars) {
-            sb.append((char) aChar);
+        for (Object c : chars) {
+            sb.append((char) c);
         }
         String result = sb.toString();
         return result.isEmpty() ? "Empty String" : result;
