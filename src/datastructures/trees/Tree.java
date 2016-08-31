@@ -9,7 +9,7 @@ public class Tree {
     private int count;
 
     Tree() {
-        this.values = new Vector<Integer>();
+        this.values = new Vector<>();
         this.count = 0;
     }
 
